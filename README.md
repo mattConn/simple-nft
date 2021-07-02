@@ -15,6 +15,10 @@ You will need:
     - You will also need your security mnemonic from MetaMask. This is found under `account > settings > security & privacy > reveal secret recovery phase` on MetaMask. This is `WALLET_MNEMONIC` in `.env`.
 - Finally, compile and deploy with `truffle deploy --network ropsten` or run `make` (this will achieve the same result). Your smart contract address will be shown to you with other details. This address can be used to interact with your contract.
 
+## Ropsten Deployed Contracts
+- example.sol: https://ropsten.etherscan.io/address/0x56967Ea2f5d493E1eBa55B8B36dFcA66D464AA7A
+- simple-nft.sol: https://ropsten.etherscan.io/address/0xE1a1Ac9d69315BA6001552d41C386DC97425Fb8c
+
 ## Issues
 - I had issues interacting with my Ropsten deployed contract. On Remix, I could not get non-zero values back from my getters. On Ropsten Etherscan, I could not verify the contract (although they are there); I would get a message of bytecode mismatch. 
 
