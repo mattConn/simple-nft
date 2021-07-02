@@ -1,6 +1,5 @@
-// SPDX-License-Identifier: Apache-2.0
-
-pragma solidity ^0.8.4;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
 
 contract SimpleNFT {
     address creator;
@@ -9,6 +8,8 @@ contract SimpleNFT {
 
     constructor(){
         creator = msg.sender;
+        owner = msg.sender;
+        URL = "https://twitter.com/mattconndev/status/1357602250328338433";
     }
 
     function transfer(address newOwner) public {
