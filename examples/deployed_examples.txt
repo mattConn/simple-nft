@@ -1,0 +1,2 @@
+Deployed to Ropsten testnet:
+example.sol at 0x56967Ea2f5d493E1eBa55B8B36dFcA66D464AA7A
